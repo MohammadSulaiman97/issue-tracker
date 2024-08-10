@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div className="text-zinc-500">
       Hello world!
     </div>
   )

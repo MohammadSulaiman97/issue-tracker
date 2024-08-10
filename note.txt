@@ -8,7 +8,8 @@
     --background-end-rgb: 0, 0, 0;
     body -> background: linear-gradient
 
-    
+// icons
+- npm i react-icons@4.11.0   
 
 
 
