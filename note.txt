@@ -1,0 +1,15 @@
+// create a new project
+- npx create-next-app@13.4.19
+
+// first step
+- go to page.tsx and remove main to start clean up
+- go to globals.css and remove these line:
+    --background-start-rgb: 0, 0, 0; 
+    --background-end-rgb: 0, 0, 0;
+    body -> background: linear-gradient
+
+    
+
+
+
+
