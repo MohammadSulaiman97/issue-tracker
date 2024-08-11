@@ -23,4 +23,14 @@
 // to create model - go to schema.prisma then add your model
 after finish run this comand to format the model
 - npx prisma format  
-- npx prisma migrate dev  
+- npx prisma migrate dev 
+
+// validation DATA
+- npm i zod@3.22.2
+
+// prisma client
+https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices
+
+- go to prisma folder and then create client.ts
+
+
