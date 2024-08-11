@@ -51,3 +51,15 @@ https://www.radix-ui.com/themes/docs/theme/typography#with-nextfont
 * copy this code: variable: '--font-inter',  and put it in object Inter in layout
 * change className in html tag from inter.className to inter.variable
 * create theme-config.css in app folder then import the file in root layout "before any import - css"
+
+// Adding a Markdown Editor 
+https://www.npmjs.com/package/react-simplemde-editor
+- npm install --save react-simplemde-editor easymde
+- add import :
+    import SimpleMDE from "react-simplemde-editor";
+    import "easymde/dist/easymde.min.css";
+
+
+
+
+
