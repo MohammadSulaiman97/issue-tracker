@@ -14,5 +14,10 @@
 // current path - selected item in navbar
 - npm i classnames@2.3.2
 
+// connection to my mysql
+- npm i prisma@5.3.1
+- npx prisma init
+    * go to prisma folder then schema and change db>provider to mysql
+    * go to .env and change DATABASE_URL
 
-
+    
