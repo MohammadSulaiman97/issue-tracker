@@ -20,4 +20,7 @@
     * go to prisma folder then schema and change db>provider to mysql
     * go to .env and change DATABASE_URL
 
-    
+// to create model - go to schema.prisma then add your model
+after finish run this comand to format the model
+- npx prisma format  
+- npx prisma migrate dev  
