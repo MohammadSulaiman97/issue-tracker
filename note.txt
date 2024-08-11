@@ -43,3 +43,11 @@ https://www.radix-ui.com/themes/docs/overview/getting-started
     import { Theme } from '@radix-ui/themes';    
 * Add Theme to your application, wrapping the root component inside of body
 
+// to customize the theme
+* go to layout and then add <ThemePanel /> in theme area
+
+// to keep FONT -  Inter working fine with Radix Themes
+https://www.radix-ui.com/themes/docs/theme/typography#with-nextfont
+* copy this code: variable: '--font-inter',  and put it in object Inter in layout
+* change className in html tag from inter.className to inter.variable
+* create theme-config.css in app folder then import the file in root layout "before any import - css"
