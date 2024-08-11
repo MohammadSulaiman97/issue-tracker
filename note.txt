@@ -59,7 +59,12 @@ https://www.npmjs.com/package/react-simplemde-editor
     import SimpleMDE from "react-simplemde-editor";
     import "easymde/dist/easymde.min.css";
 
+// React Hook Form
+https://react-hook-form.com/
+- npm i react-hook-form@7.46.1
 
 
+// to send data via api 
+- npm i axios@1.5.0
 
 
