@@ -11,6 +11,8 @@
 // icons
 - npm i react-icons@4.11.0   
 
+// current path - selected item in navbar
+- npm i classnames@2.3.2
 
 
 
