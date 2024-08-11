@@ -34,3 +34,12 @@ https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextj
 - go to prisma folder and then create client.ts
 
 
+// Install Radix Themes
+https://www.radix-ui.com/themes/docs/overview/getting-started
+- npm install @radix-ui/themes
+* import this in root layout in the top
+    import '@radix-ui/themes/styles.css';
+* import theme ui layout also
+    import { Theme } from '@radix-ui/themes';    
+* Add Theme to your application, wrapping the root component inside of body
+
