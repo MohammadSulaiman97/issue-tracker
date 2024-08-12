@@ -72,3 +72,6 @@ https://react-hook-form.com/
 - npm i @hookform/resolvers@3.3.1
 
 
+// spinner
+https://tw-elements.com/docs/standard/components/spinners/
+
