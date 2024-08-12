@@ -68,3 +68,7 @@ https://react-hook-form.com/
 - npm i axios@1.5.0
 
 
+// hook form
+- npm i @hookform/resolvers@3.3.1
+
+
