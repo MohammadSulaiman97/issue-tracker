@@ -91,5 +91,6 @@ https://v1.tailwindcss.com/docs/typography-plugin
 - npm install -D @tailwindcss/typography
 - add require('@tailwindcss/typography') to tailwind.config.ts
 
-
+// custom component
+https://nextjs.org/docs/pages/api-reference/components/link#if-the-child-is-a-custom-component-that-wraps-an-a-tag
 
