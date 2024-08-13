@@ -75,3 +75,9 @@ https://react-hook-form.com/
 // spinner
 https://tw-elements.com/docs/standard/components/spinners/
 
+
+// slow server "Call"
+- npm i delay
+
+// loading
+- npm i react-loading-skeleton@3.3.1
