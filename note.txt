@@ -81,3 +81,15 @@ https://tw-elements.com/docs/standard/components/spinners/
 
 // loading
 - npm i react-loading-skeleton@3.3.1
+
+// Markdown preview
+- npm i react-markdown@8.0.7
+
+// @tailwindcss/typography
+// A first-party plugin for providing beautiful typographic defaults.
+https://v1.tailwindcss.com/docs/typography-plugin
+- npm install -D @tailwindcss/typography
+- add require('@tailwindcss/typography') to tailwind.config.ts
+
+
+
