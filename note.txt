@@ -101,3 +101,6 @@ https://www.radix-ui.com/themes/docs/theme/breakpoints
 // icons
 https://www.radix-ui.com/icons
 - npm i @radix-ui/react-icons
+
+// cash data:  dynamic - revalidate
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
