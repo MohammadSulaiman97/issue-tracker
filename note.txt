@@ -110,8 +110,14 @@ https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
 https://www.radix-ui.com/themes/docs/components/alert-dialog
 
 
+// auth
+https://next-auth.js.org/getting-started/example
+- npm install next-auth@4.23.1
+- ... to catch all -> name of parameter : next to auth - ex: localhost:3000/auth/sinup
+/app/api/auth/[...nextauth]/route.ts
 
-
+- add NEXTAUTH_URL & NEXTAUTH_SECRET to .env file
+NEXTAUTH_SECRET to generate go to cmd : openssl rand -base64 32
 
 
 
