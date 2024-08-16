@@ -104,3 +104,15 @@ https://www.radix-ui.com/icons
 
 // cash data:  dynamic - revalidate
 https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+
+
+// alert dialog
+https://www.radix-ui.com/themes/docs/components/alert-dialog
+
+
+
+
+
+
+
+
