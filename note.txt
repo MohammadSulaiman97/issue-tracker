@@ -143,8 +143,11 @@ For development: http://localhost:3000/api/auth/callback/google
 - click create
 - copy : GOOGLE_CLIENT_ID &GOOGLE_CLIENT_SECRET put it in .env file
 
+// Prisma Adapter : to store information to db
+https://authjs.dev/getting-started/adapters
+- npm i @next-auth/prisma-adapter@1.0.7
 
-
+change code in : /app/api/auth/[...nextauth]/route.ts
 
 
 
