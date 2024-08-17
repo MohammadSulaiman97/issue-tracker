@@ -161,3 +161,21 @@ status === "authenticated" | status === "unauthenticated"
 
 
 
+// if we need to add some modification on all project layer 
+go to /next.config.js  and add
+async headers() {
+        return [
+            {
+                source: '/:path*',
+                headers: [
+                    { key: 'referrer-policy', value: 'no-referrer' }
+                ]
+            }
+        ]
+}
+
+
+
+
+
+
