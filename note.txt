@@ -117,7 +117,36 @@ https://next-auth.js.org/getting-started/example
 /app/api/auth/[...nextauth]/route.ts
 
 - add NEXTAUTH_URL & NEXTAUTH_SECRET to .env file
-NEXTAUTH_SECRET to generate go to cmd : openssl rand -base64 32
+NEXTAUTH_SECRET to generate go to cmd run:
+- openssl rand -base64 32
+// create project on cloud 
+https://console.cloud.google.com/
+// google provider
+https://next-auth.js.org/providers/google
+// you have to open and select correct project 
+https://console.developers.google.com/apis/credentials
+- Click configure consent screen
+- Select External 
+- Add name and email
+- Click save 
+- Click on Add or remove scopes : select email & profile
+- Add User you can login
+- save
+=====go back to credentials=======
+- Click on create credentials then select oAuth client id
+- Select type
+- Add name 
+- Authorized JavaScript origins add:  http://localhost:3000
+- Authorized redirect URIs add:
+For production: https://{YOUR_DOMAIN}/api/auth/callback/google
+For development: http://localhost:3000/api/auth/callback/google 
+- click create
+- copy : GOOGLE_CLIENT_ID &GOOGLE_CLIENT_SECRET put it in .env file
+
+
+
+
+
 
 
 
