@@ -150,7 +150,14 @@ https://authjs.dev/getting-started/adapters
 change code in : /app/api/auth/[...nextauth]/route.ts
 
 
-
+// Session 
+- create auth folder in app folder
+- create Provider.tsx in auth folder
+- add AuthProvider in root layout 
+* to check the Session
+import { useSession } from "next-auth/react";
+const { status, data: session } = useSession();
+status === "authenticated" | status === "unauthenticated"
 
 
 
