@@ -175,6 +175,13 @@ async headers() {
 }
 
 
+// to protect the API, a middleware must be created in the root folder.
+middleware.ts
+ 
+to get session
+const session = await getServerSession(authOptions);
+
+
 
 
 
