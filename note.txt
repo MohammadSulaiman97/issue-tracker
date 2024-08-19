@@ -182,6 +182,18 @@ to get session
 const session = await getServerSession(authOptions);
 
 
+// insted of fetch data using status and effect
+https://tanstack.com/query/latest
+https://www.npmjs.com/package/@tanstack/react-query
+- npm i @tanstack/react-query@4.35.3
+- create a new file in app called name : QueryClientProvider.tsx
+
+
+
+
+
+
+
 
 
 
