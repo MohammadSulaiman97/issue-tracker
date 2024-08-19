@@ -188,8 +188,12 @@ https://www.npmjs.com/package/@tanstack/react-query
 - npm i @tanstack/react-query@4.35.3
 - create a new file in app called name : QueryClientProvider.tsx
 
-
-
+// to make relationshap
+in issue model
+assignedToUserId String?  @db.VarChar(255)
+assignedToUser   User?    @relation(fields: [assignedToUserId], references: [id])
+in user model
+assignedIssues Issue[]
 
 
 
