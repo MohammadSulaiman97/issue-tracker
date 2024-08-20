@@ -196,7 +196,9 @@ in user model
 assignedIssues Issue[]
 
 
-
+// toast
+https://www.npmjs.com/package/react-hot-toast
+- npm i react-hot-toast@2.4.1
 
 
 
