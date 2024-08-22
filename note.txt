@@ -200,6 +200,20 @@ assignedIssues Issue[]
 https://www.npmjs.com/package/react-hot-toast
 - npm i react-hot-toast@2.4.1
 
+// Generate records in database -> ChatGPT
+Given the following prisma model, generate SQL statement to insert 40 records in the issue table.
+ Use real-world titles and description for issues. Status can be OPEN, IN_PROGRESS or CLOSED. Descriptions should be a paragraph long.
+ Provide different values for the createdAt and updatedAt columns.
+ model Issue {
+  id               Int      @id @default(autoincrement())
+  title            String   @db.VarChar(255)
+  description      String   @db.Text
+  status           Status   @default(OPEN)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}  
+
+
 
 
 
