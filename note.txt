@@ -214,6 +214,11 @@ Given the following prisma model, generate SQL statement to insert 40 records in
 }  
 
 
+// charts
+https://recharts.org/en-US/
+https://www.npmjs.com/package/recharts
+- npm i recharts@2.8.0
+
 
 
 
