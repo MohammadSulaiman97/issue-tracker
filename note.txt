@@ -220,6 +220,14 @@ https://www.npmjs.com/package/recharts
 - npm i recharts@2.8.0
 
 
+// to log query in terminal go to client.ts
+// add log: ['query'] to PrismaClient
+const prismaClientSingleton = () => {
+  return new PrismaClient({
+    log: ['query']
+  })
+}
+
 
 
 
