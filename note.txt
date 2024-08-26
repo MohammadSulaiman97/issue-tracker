@@ -230,4 +230,18 @@ const prismaClientSingleton = () => {
 
 
 
+// error tracking tools
+- sentry 
+- bugSnag
+- lockRocket
+
+// production database
+https://planetscale.com/
+
+// deploying 
+- delete migrations folder
+    npx run migrate dev => the name inital migration
+
+
+
 
